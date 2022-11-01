@@ -23,4 +23,4 @@ print("Timing inference...")
 start = time.time()
 for i in range(10):
     y = model.predict(x=x_train, batch_size=batch_size)
-print("Ran in {} seconds".format(time.time() - start))
+print(f"Ran in {time.time() - start} seconds")
